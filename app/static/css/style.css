@@ -242,17 +242,16 @@
 /*** Category ***/
 .cat-item div {
     background: #FFFFFF;
-    border: 1px dashed rgba(0, 185, 142, .3);
+    border: 2px solid #c4cef1;
     transition: .5s;
 }
 
-.cat-item:hover div {
-    background: var(--primary);
-    border-color: transparent;
-}
 
 .cat-item div * {
     transition: .5s;
+    object-fit: cover;
+    height: 45px;
+    border: 0;
 }
 
 .cat-item:hover div * {
@@ -464,3 +463,28 @@
 body{
     background-color: #eff1ff;
     }
+
+.col-lg-3 {
+    flex: 0 0 20%;
+    width: 20%;
+}
+
+.col-lg-3.service {
+    flex: 0 0 25%;
+    width: 25%;
+}
+.bg-dark {
+    background-color: #0a1472 !important;
+}
+.row.gal-max{
+    flex-wrap: inherit;
+}
+.pt-5{
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+}
+.gal-cover{
+    object-fit: cover;
+    height: 90%;
+    width: 100%;
+}
