@@ -623,13 +623,21 @@ a:hover{
 }
 
 /* Modal Content */
+
 .modal-content {
   position: relative;
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 45%;
 }
+@media (min-width: 1200px){
+    .modal-content {
+      width: 45%;
+    }}
+@media (max-width: 1200px){
+    .modal-content {
+      width: 80%;
+    }}
 
 /* The Close Button */
 .close {
